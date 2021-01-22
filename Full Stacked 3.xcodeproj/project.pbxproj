@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1040ED7D25BA54DF004FC818 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1040ED7C25BA54DF004FC818 /* FirebaseAuth */; };
+		1040ED7F25BA54DF004FC818 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1040ED7E25BA54DF004FC818 /* FirebaseFirestore */; };
+		1040ED8125BA54DF004FC818 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1040ED8025BA54DF004FC818 /* FirebaseFirestoreSwift-Beta */; };
+		1040ED9225BA577E004FC818 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040ED9125BA577E004FC818 /* KeyboardViewController.swift */; };
+		1040ED9625BA577E004FC818 /* Card Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1040ED8F25BA577E004FC818 /* Card Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1040EDC325BA5D0C004FC818 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1040EDC225BA5D0C004FC818 /* KeyboardKit */; };
+		1040EDD925BA5FB5004FC818 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040EDD825BA5FB5004FC818 /* LoginViewController.swift */; };
+		1040EDDF25BA5FC0004FC818 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1040EDDE25BA5FC0004FC818 /* RegisterViewController.swift */; };
+		1040EDF325BA66D1004FC818 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1040EDF225BA66D1004FC818 /* GoogleService-Info.plist */; };
+		1040EE0125BA689E004FC818 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10649D0225B773C700C12989 /* WelcomeViewController.swift */; };
+		1073359025BB0E9A001FA441 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1073358F25BB0E9A001FA441 /* FirebaseAuth.swift */; };
+		1073359A25BB28D2001FA441 /* TamarizStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1073359925BB28D2001FA441 /* TamarizStack.swift */; };
+		1099000625B4DD4B0074B87A /* Full_StackedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099000525B4DD4B0074B87A /* Full_StackedUITests.swift */; };
+		1099004E25B4E0620074B87A /* TestBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099002025B4DE320074B87A /* TestBrain.swift */; };
+		1099005525B4E0660074B87A /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099001B25B4DE260074B87A /* Cards.swift */; };
+		1099007925B4E2FB0074B87A /* NumberTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099007825B4E2FB0074B87A /* NumberTestViewController.swift */; };
+		1099008125B4E30B0074B87A /* CardTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099008025B4E30B0074B87A /* CardTestViewController.swift */; };
+		1099FFE425B4DD4A0074B87A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099FFE325B4DD4A0074B87A /* AppDelegate.swift */; };
+		1099FFE625B4DD4A0074B87A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099FFE525B4DD4A0074B87A /* SceneDelegate.swift */; };
+		1099FFE825B4DD4A0074B87A /* ChooseTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099FFE725B4DD4A0074B87A /* ChooseTestViewController.swift */; };
+		1099FFEB25B4DD4A0074B87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1099FFE925B4DD4A0074B87A /* Main.storyboard */; };
+		1099FFED25B4DD4A0074B87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1099FFEC25B4DD4A0074B87A /* Assets.xcassets */; };
+		1099FFF025B4DD4A0074B87A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1099FFEE25B4DD4A0074B87A /* LaunchScreen.storyboard */; };
+		1099FFFB25B4DD4A0074B87A /* Full_StackedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099FFFA25B4DD4A0074B87A /* Full_StackedTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1040ED9425BA577E004FC818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1099FFD825B4DD4A0074B87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1040ED8E25BA577E004FC818;
+			remoteInfo = "Card Keyboard";
+		};
+		1099000225B4DD4B0074B87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1099FFD825B4DD4A0074B87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1099FFDF25B4DD4A0074B87A;
+			remoteInfo = "Full Stacked";
+		};
+		1099FFF725B4DD4A0074B87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1099FFD825B4DD4A0074B87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1099FFDF25B4DD4A0074B87A;
+			remoteInfo = "Full Stacked";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1040ED9A25BA577E004FC818 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1040ED9625BA577E004FC818 /* Card Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1040ED8F25BA577E004FC818 /* Card Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Card Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1040ED9125BA577E004FC818 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		1040ED9325BA577E004FC818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1040EDD825BA5FB5004FC818 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1040EDDE25BA5FC0004FC818 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1040EDF225BA66D1004FC818 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		10649D0225B773C700C12989 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1073358F25BB0E9A001FA441 /* FirebaseAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuth.swift; sourceTree = "<group>"; };
+		1073359925BB28D2001FA441 /* TamarizStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamarizStack.swift; sourceTree = "<group>"; };
+		1099000125B4DD4A0074B87A /* Full Stacked 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Full Stacked 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1099000525B4DD4B0074B87A /* Full_StackedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Full_StackedUITests.swift; sourceTree = "<group>"; };
+		1099000725B4DD4B0074B87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1099001B25B4DE260074B87A /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		1099002025B4DE320074B87A /* TestBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBrain.swift; sourceTree = "<group>"; };
+		1099007825B4E2FB0074B87A /* NumberTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTestViewController.swift; sourceTree = "<group>"; };
+		1099008025B4E30B0074B87A /* CardTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTestViewController.swift; sourceTree = "<group>"; };
+		1099FFE025B4DD4A0074B87A /* Full Stacked 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Full Stacked 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1099FFE325B4DD4A0074B87A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1099FFE525B4DD4A0074B87A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1099FFE725B4DD4A0074B87A /* ChooseTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTestViewController.swift; sourceTree = "<group>"; };
+		1099FFEA25B4DD4A0074B87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1099FFEC25B4DD4A0074B87A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1099FFEF25B4DD4A0074B87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1099FFF125B4DD4A0074B87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1099FFF625B4DD4A0074B87A /* Full Stacked 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Full Stacked 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1099FFFA25B4DD4A0074B87A /* Full_StackedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Full_StackedTests.swift; sourceTree = "<group>"; };
+		1099FFFC25B4DD4A0074B87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1040ED8C25BA577E004FC818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1040EDC325BA5D0C004FC818 /* KeyboardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099FFDD25B4DD4A0074B87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1040ED8125BA54DF004FC818 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				1040ED7D25BA54DF004FC818 /* FirebaseAuth in Frameworks */,
+				1040ED7F25BA54DF004FC818 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099FFF325B4DD4A0074B87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099FFFE25B4DD4A0074B87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1040ED9025BA577E004FC818 /* Card Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1040ED9125BA577E004FC818 /* KeyboardViewController.swift */,
+				1040ED9325BA577E004FC818 /* Info.plist */,
+			);
+			path = "Card Keyboard";
+			sourceTree = "<group>";
+		};
+		1099000425B4DD4B0074B87A /* Full StackedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1099000525B4DD4B0074B87A /* Full_StackedUITests.swift */,
+				1099000725B4DD4B0074B87A /* Info.plist */,
+			);
+			path = "Full StackedUITests";
+			sourceTree = "<group>";
+		};
+		1099001625B4DDE60074B87A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10649D0225B773C700C12989 /* WelcomeViewController.swift */,
+				1040EDD825BA5FB5004FC818 /* LoginViewController.swift */,
+				1040EDDE25BA5FC0004FC818 /* RegisterViewController.swift */,
+				1099FFE725B4DD4A0074B87A /* ChooseTestViewController.swift */,
+				1099007825B4E2FB0074B87A /* NumberTestViewController.swift */,
+				1099008025B4E30B0074B87A /* CardTestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1099001A25B4DDF00074B87A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1099FFE925B4DD4A0074B87A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1099002525B4DE3A0074B87A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1099001B25B4DE260074B87A /* Cards.swift */,
+				1099002025B4DE320074B87A /* TestBrain.swift */,
+				1073358F25BB0E9A001FA441 /* FirebaseAuth.swift */,
+				1073359925BB28D2001FA441 /* TamarizStack.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1099FFD725B4DD4A0074B87A = {
+			isa = PBXGroup;
+			children = (
+				1099FFE225B4DD4A0074B87A /* Full Stacked */,
+				1099FFF925B4DD4A0074B87A /* Full StackedTests */,
+				1099000425B4DD4B0074B87A /* Full StackedUITests */,
+				1040ED9025BA577E004FC818 /* Card Keyboard */,
+				1099FFE125B4DD4A0074B87A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1099FFE125B4DD4A0074B87A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1099FFE025B4DD4A0074B87A /* Full Stacked 3.app */,
+				1099FFF625B4DD4A0074B87A /* Full Stacked 3Tests.xctest */,
+				1099000125B4DD4A0074B87A /* Full Stacked 3UITests.xctest */,
+				1040ED8F25BA577E004FC818 /* Card Keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1099FFE225B4DD4A0074B87A /* Full Stacked */ = {
+			isa = PBXGroup;
+			children = (
+				1099FFE325B4DD4A0074B87A /* AppDelegate.swift */,
+				1099FFE525B4DD4A0074B87A /* SceneDelegate.swift */,
+				1099002525B4DE3A0074B87A /* Model */,
+				1099001A25B4DDF00074B87A /* View */,
+				1099001625B4DDE60074B87A /* Controller */,
+				1099FFEC25B4DD4A0074B87A /* Assets.xcassets */,
+				1099FFEE25B4DD4A0074B87A /* LaunchScreen.storyboard */,
+				1099FFF125B4DD4A0074B87A /* Info.plist */,
+				1040EDF225BA66D1004FC818 /* GoogleService-Info.plist */,
+			);
+			path = "Full Stacked";
+			sourceTree = "<group>";
+		};
+		1099FFF925B4DD4A0074B87A /* Full StackedTests */ = {
+			isa = PBXGroup;
+			children = (
+				1099FFFA25B4DD4A0074B87A /* Full_StackedTests.swift */,
+				1099FFFC25B4DD4A0074B87A /* Info.plist */,
+			);
+			path = "Full StackedTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1040ED8E25BA577E004FC818 /* Card Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1040ED9725BA577E004FC818 /* Build configuration list for PBXNativeTarget "Card Keyboard" */;
+			buildPhases = (
+				1040ED8B25BA577E004FC818 /* Sources */,
+				1040ED8C25BA577E004FC818 /* Frameworks */,
+				1040ED8D25BA577E004FC818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Keyboard";
+			packageProductDependencies = (
+				1040EDC225BA5D0C004FC818 /* KeyboardKit */,
+			);
+			productName = "Card Keyboard";
+			productReference = 1040ED8F25BA577E004FC818 /* Card Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1099000025B4DD4A0074B87A /* Full Stacked 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1099001025B4DD4B0074B87A /* Build configuration list for PBXNativeTarget "Full Stacked 3UITests" */;
+			buildPhases = (
+				1099FFFD25B4DD4A0074B87A /* Sources */,
+				1099FFFE25B4DD4A0074B87A /* Frameworks */,
+				1099FFFF25B4DD4A0074B87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1099000325B4DD4B0074B87A /* PBXTargetDependency */,
+			);
+			name = "Full Stacked 3UITests";
+			productName = "Full StackedUITests";
+			productReference = 1099000125B4DD4A0074B87A /* Full Stacked 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1099FFDF25B4DD4A0074B87A /* Full Stacked 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1099000A25B4DD4B0074B87A /* Build configuration list for PBXNativeTarget "Full Stacked 3" */;
+			buildPhases = (
+				1099FFDC25B4DD4A0074B87A /* Sources */,
+				1099FFDD25B4DD4A0074B87A /* Frameworks */,
+				1099FFDE25B4DD4A0074B87A /* Resources */,
+				1040ED9A25BA577E004FC818 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1040ED9525BA577E004FC818 /* PBXTargetDependency */,
+			);
+			name = "Full Stacked 3";
+			packageProductDependencies = (
+				1040ED7C25BA54DF004FC818 /* FirebaseAuth */,
+				1040ED7E25BA54DF004FC818 /* FirebaseFirestore */,
+				1040ED8025BA54DF004FC818 /* FirebaseFirestoreSwift-Beta */,
+			);
+			productName = "Full Stacked";
+			productReference = 1099FFE025B4DD4A0074B87A /* Full Stacked 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1099FFF525B4DD4A0074B87A /* Full Stacked 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1099000D25B4DD4B0074B87A /* Build configuration list for PBXNativeTarget "Full Stacked 3Tests" */;
+			buildPhases = (
+				1099FFF225B4DD4A0074B87A /* Sources */,
+				1099FFF325B4DD4A0074B87A /* Frameworks */,
+				1099FFF425B4DD4A0074B87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1099FFF825B4DD4A0074B87A /* PBXTargetDependency */,
+			);
+			name = "Full Stacked 3Tests";
+			productName = "Full StackedTests";
+			productReference = 1099FFF625B4DD4A0074B87A /* Full Stacked 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1099FFD825B4DD4A0074B87A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1040ED8E25BA577E004FC818 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1099000025B4DD4A0074B87A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1099FFDF25B4DD4A0074B87A;
+					};
+					1099FFDF25B4DD4A0074B87A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1099FFF525B4DD4A0074B87A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1099FFDF25B4DD4A0074B87A;
+					};
+				};
+			};
+			buildConfigurationList = 1099FFDB25B4DD4A0074B87A /* Build configuration list for PBXProject "Full Stacked 3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1099FFD725B4DD4A0074B87A;
+			packageReferences = (
+				1040ED7B25BA54DF004FC818 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1040EDC125BA5D0B004FC818 /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+			);
+			productRefGroup = 1099FFE125B4DD4A0074B87A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1099FFDF25B4DD4A0074B87A /* Full Stacked 3 */,
+				1099FFF525B4DD4A0074B87A /* Full Stacked 3Tests */,
+				1099000025B4DD4A0074B87A /* Full Stacked 3UITests */,
+				1040ED8E25BA577E004FC818 /* Card Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1040ED8D25BA577E004FC818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099FFDE25B4DD4A0074B87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1099FFF025B4DD4A0074B87A /* LaunchScreen.storyboard in Resources */,
+				1040EDF325BA66D1004FC818 /* GoogleService-Info.plist in Resources */,
+				1099FFED25B4DD4A0074B87A /* Assets.xcassets in Resources */,
+				1099FFEB25B4DD4A0074B87A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099FFF425B4DD4A0074B87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099FFFF25B4DD4A0074B87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1040ED8B25BA577E004FC818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1040ED9225BA577E004FC818 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099FFDC25B4DD4A0074B87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1073359025BB0E9A001FA441 /* FirebaseAuth.swift in Sources */,
+				1040EDD925BA5FB5004FC818 /* LoginViewController.swift in Sources */,
+				1040EE0125BA689E004FC818 /* WelcomeViewController.swift in Sources */,
+				1040EDDF25BA5FC0004FC818 /* RegisterViewController.swift in Sources */,
+				1099008125B4E30B0074B87A /* CardTestViewController.swift in Sources */,
+				1099005525B4E0660074B87A /* Cards.swift in Sources */,
+				1099FFE825B4DD4A0074B87A /* ChooseTestViewController.swift in Sources */,
+				1073359A25BB28D2001FA441 /* TamarizStack.swift in Sources */,
+				1099FFE425B4DD4A0074B87A /* AppDelegate.swift in Sources */,
+				1099007925B4E2FB0074B87A /* NumberTestViewController.swift in Sources */,
+				1099004E25B4E0620074B87A /* TestBrain.swift in Sources */,
+				1099FFE625B4DD4A0074B87A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099FFF225B4DD4A0074B87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1099FFFB25B4DD4A0074B87A /* Full_StackedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1099FFFD25B4DD4A0074B87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1099000625B4DD4B0074B87A /* Full_StackedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1040ED9525BA577E004FC818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1040ED8E25BA577E004FC818 /* Card Keyboard */;
+			targetProxy = 1040ED9425BA577E004FC818 /* PBXContainerItemProxy */;
+		};
+		1099000325B4DD4B0074B87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1099FFDF25B4DD4A0074B87A /* Full Stacked 3 */;
+			targetProxy = 1099000225B4DD4B0074B87A /* PBXContainerItemProxy */;
+		};
+		1099FFF825B4DD4A0074B87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1099FFDF25B4DD4A0074B87A /* Full Stacked 3 */;
+			targetProxy = 1099FFF725B4DD4A0074B87A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1099FFE925B4DD4A0074B87A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1099FFEA25B4DD4A0074B87A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1099FFEE25B4DD4A0074B87A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1099FFEF25B4DD4A0074B87A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1040ED9825BA577E004FC818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Card Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kellytester.Full-Stacked.Card-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1040ED9925BA577E004FC818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Card Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kellytester.Full-Stacked.Card-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1099000825B4DD4B0074B87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1099000925B4DD4B0074B87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1099000B25B4DD4B0074B87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Full Stacked/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kellytester.Full-Stacked";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1099000C25B4DD4B0074B87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Full Stacked/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kellytester.Full-Stacked";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1099000E25B4DD4B0074B87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Full StackedTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kellytester.Full-StackedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Full Stacked 3.app/Full Stacked 3";
+			};
+			name = Debug;
+		};
+		1099000F25B4DD4B0074B87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Full StackedTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kellytester.Full-StackedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Full Stacked 3.app/Full Stacked 3";
+			};
+			name = Release;
+		};
+		1099001125B4DD4B0074B87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Full StackedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kellytester.Full-StackedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Full Stacked";
+			};
+			name = Debug;
+		};
+		1099001225B4DD4B0074B87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Full StackedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kellytester.Full-StackedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Full Stacked";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1040ED9725BA577E004FC818 /* Build configuration list for PBXNativeTarget "Card Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1040ED9825BA577E004FC818 /* Debug */,
+				1040ED9925BA577E004FC818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1099000A25B4DD4B0074B87A /* Build configuration list for PBXNativeTarget "Full Stacked 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1099000B25B4DD4B0074B87A /* Debug */,
+				1099000C25B4DD4B0074B87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1099000D25B4DD4B0074B87A /* Build configuration list for PBXNativeTarget "Full Stacked 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1099000E25B4DD4B0074B87A /* Debug */,
+				1099000F25B4DD4B0074B87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1099001025B4DD4B0074B87A /* Build configuration list for PBXNativeTarget "Full Stacked 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1099001125B4DD4B0074B87A /* Debug */,
+				1099001225B4DD4B0074B87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1099FFDB25B4DD4A0074B87A /* Build configuration list for PBXProject "Full Stacked 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1099000825B4DD4B0074B87A /* Debug */,
+				1099000925B4DD4B0074B87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1040ED7B25BA54DF004FC818 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		1040EDC125BA5D0B004FC818 /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/KeyboardKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1040ED7C25BA54DF004FC818 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1040ED7B25BA54DF004FC818 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1040ED7E25BA54DF004FC818 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1040ED7B25BA54DF004FC818 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1040ED8025BA54DF004FC818 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1040ED7B25BA54DF004FC818 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		1040EDC225BA5D0C004FC818 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1040EDC125BA5D0B004FC818 /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1099FFD825B4DD4A0074B87A /* Project object */;
+}
