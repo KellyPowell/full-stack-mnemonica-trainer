@@ -23,35 +23,78 @@ class RegisterViewController: UIViewController {
     }
     
     @IBAction func registerPressed(_ sender: UIButton) {
+        if let email = emailTextField.text, let password = passwordTextField.text {
+            Auth.auth().createUser(withEmail: email, password: password, completion: { (user, error) in
+                
+                if error != nil {
+                    print(error!._code)
+                    self.handleError(error!)      // use the handleError method
+                    return
+                }
+                //successfully logged in the user
+                //Navigate to the ChatViewController
+                self.performSegue(withIdentifier: "RegisterToTest", sender: self)
+            })
+        }
         
-        let signUpManager = FirebaseAuthManager()
-           if let email = emailTextField.text, let password = passwordTextField.text {
-               signUpManager.createUser(email: email, password: password) {[weak self] (success) in
-                   guard let `self` = self else { return }
-                   var message: String = ""
-                   if (success) {
-                       message = "User was sucessfully created."
-                   } else {
-                   // message = signUpManager.alertUser(errorCode: <#T##AuthErrorCode#>)
-                    print("error")
-                   }
-                   let alertController = UIAlertController(title: nil, message: message, preferredStyle: .alert)
-                   alertController.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-                self.present(alertController, animated: true)
-               }
-           }
-
-        
-//        if let email =  emailTextField.text, let password = passwordTextField.text {
-//            Auth.auth().createUser(withEmail: email, password: password) { authResult, error in if let e = error {
-//            print(e)
-//            } else {
-//                //Navigate to the ChatViewController
-//                self.performSegue(withIdentifier: "RegisterToTest", sender: self)
-//            }
-//        }
-//        }
     }
     
+    
+}
+
+extension AuthErrorCode {
+    var errorMessage: String {
+        switch self {
+        case .accountExistsWithDifferentCredential:
+            return "Email already exists, log in."
+        case .credentialAlreadyInUse:
+            return("Email already exists, log in.")
+        case .emailAlreadyInUse:
+            return("Email already exists, log in.")
+        case .internalError:
+            return("Indicates an internal error occurred.")
+        case .invalidEmail:
+            return("Please enter a valid email.")
+        case .keychainError:
+            return("An error occurred while attempting to access the keychain.")
+        case .missingEmail:
+            return("Please provide valid email address.")
+        case .networkError:
+            return("A network error occurred.")
+        case .sessionExpired:
+            return("Session expired.")
+        case .userDisabled:
+            return("Indicates the user’s account is disabled on the server.")
+        case .userMismatch:
+            return("User mismatch, please log in.")
+        case .userNotFound:
+            return("User not found, please create account.")
+        case .userTokenExpired:
+            return("User token expired. Please log in.")
+        case .weakPassword:
+            return("Password must have at least 6 characters.")
+        case .wrongPassword:
+            return("Wrong password.")
+        default:
+            return("Unknown error occurred")
+        }
+    }
+}
+
+
+extension UIViewController{
+    func handleError(_ error: Error) {
+        if let errorCode = AuthErrorCode(rawValue: error._code) {
+            print(errorCode.errorMessage)
+            let alert = UIAlertController(title: "Error", message: errorCode.errorMessage, preferredStyle: .alert)
+            
+            let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+            
+            alert.addAction(okAction)
+            
+            self.present(alert, animated: true, completion: nil)
+            
+        }
+    }
     
 }
